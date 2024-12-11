@@ -15,8 +15,8 @@ local opts = {}
 local plugins = {
   require("plugins.catppuccin"),
   require("plugins.telescope"),
-  require("plugins.neotree")
-
+  require("plugins.neotree"),
+  require("plugins.treesitter")
 }
 
 require("lazy").setup(plugins, opts)
