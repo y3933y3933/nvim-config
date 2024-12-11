@@ -19,7 +19,8 @@ local plugins = {
   require("plugins.treesitter"),
   require("plugins.lsp"),
   require("plugins.none-ls"),
-  require("plugins.completion")
+  require("plugins.completion"),
+  require("plugins.noice")
 }
 
 require("lazy").setup(plugins, opts)
