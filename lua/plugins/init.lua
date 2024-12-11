@@ -18,7 +18,8 @@ local plugins = {
   require("plugins.neotree"),
   require("plugins.treesitter"),
   require("plugins.lsp"),
-  require("plugins.none-ls")
+  require("plugins.none-ls"),
+  require("plugins.completion")
 }
 
 require("lazy").setup(plugins, opts)
