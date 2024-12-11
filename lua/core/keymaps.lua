@@ -26,3 +26,6 @@ vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {})
 vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {})
 vim.keymap.set('n', '<space>rn', vim.lsp.buf.rename, {})
 
+
+-- format
+vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})

@@ -17,7 +17,8 @@ local plugins = {
   require("plugins.telescope"),
   require("plugins.neotree"),
   require("plugins.treesitter"),
-  require("plugins.lsp")
+  require("plugins.lsp"),
+  require("plugins.none-ls")
 }
 
 require("lazy").setup(plugins, opts)
